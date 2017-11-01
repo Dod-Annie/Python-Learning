@@ -23,4 +23,3 @@ print(list(d))
 # 使用reduce函数
 
 print(reduce(lambda a,b: a & b,map(dict.keys, [s1,s2,s3])))
-
